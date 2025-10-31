@@ -1,6 +1,6 @@
-package main.java.util;
+package main.java.com.upb.agripos.util;
 
-public class Credit {
+public class CreditBy {
     public static void print(String nim, String nama) {
         System.out.println("\ncredit by: " + nim + " - " + nama);
     

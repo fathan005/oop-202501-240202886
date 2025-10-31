@@ -92,7 +92,7 @@ public class Pupuk extends Produk {
     }
 
     public String getJenis() { return jenis; }
-    public void setJenis(String jenis) { this.jenis = jenis; }
+    public oid setJenis(String jenis) { this.jenis = jenis; }
 }
 ```
 
