@@ -9,11 +9,7 @@ public class ShoppingCart {
     public void removeProduct(Product p) { items.remove(p); }
 
     public double getTotal() {
-        double sum = 0;
-        for (Product p : items) {
-            sum += p.getPrice();
-        }
-        return sum;
+        return 0;
     }
 
     public void printCart() {
@@ -22,5 +18,8 @@ public class ShoppingCart {
             System.out.println("- " + p.getCode() + " " + p.getName() + " = " + p.getPrice());
         }
         System.out.println("Total: " + getTotal());
+    }
+
+    public void checkout() {
     }
 }
